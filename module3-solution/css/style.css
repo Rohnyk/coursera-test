@@ -1,0 +1,130 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: blue;
+  font-family: 'Harrington', sans-serif;
+}
+#header-nav{
+	background: linear-gradient(to right, orange,yellow) ;
+	border-radius: 0;
+	border: 0;
+	width: 100%;
+	height: 100px; 
+}
+ .navbar-brand h1
+ {
+ 	font-family: 'Arial',serif;
+ 	color: green;
+ 	font-size: 2.5em;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	text-shadow: 1px 1px 1px #222;
+ 	margin-top: 20px;
+ 	margin-bottom: 0;
+ 	line-height: 1;
+
+ }
+
+ .navbar-brand a:hover, .navbar-brand a:focus{
+ 	text-decoration: none;
+ }
+ #nav-list
+ {
+ 	margin-top: -5px;
+ }
+ #nav-list a
+ {
+ 	background: linear-gradient(to right, orange,yellow);
+ 	font-family: Arial;
+ 	text-align: center;
+ 	border-bottom:3px solid black;
+ 	color: black;
+ }
+
+ #nav-list a:hover
+ {
+ 	 background: white;
+ }
+ #nav-list a span
+ {
+ 	font-size: 1.8em;
+}
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar
+ {
+ 	border: 1px solid black;
+ }
+ .navbar-header button.navbar-toggle
+ {
+ 	clear:both;
+ 	margin-top: -30px;
+ }
+ #chicken,#beef,#Sushi
+ {
+ 	padding: 0;
+ 	margin: 10px;
+ 	border:2px solid yellow;
+ 	font-style: italic;
+ 	font-family: Baskerville Old Face;
+ 	font-size: 2.0vw;
+ 	background: rgba(1,1,1,0.5);
+    text-decoration:none;
+ }
+ #chicken h3,#beef h3,#Sushi h3
+ {
+ 	color:black;
+ 	width: 100%;
+ 	text-align: center;
+ 	font-size: 1.6em;
+ 	text-transform: uppercase;
+ 	font-style: normal;
+ 	text-decoration:underline;
+ }
+ #menu-title
+ {
+ 	font-size: 3em;
+ }
+ @media (min-width: 1200px)
+ {
+  
+ }
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+}
+@media (min-width:768px) and (max-width: 991px)
+{
+
+}
+ @media (max-width: 767px)
+{
+ .navbar-brand
+ {
+ 	padding-top: 10px;
+ 	height: 80px;
+ }
+ .navbar-brand h1
+ {
+ 	padding-top: 10px;
+ 	font-size: 50px;
+ }
+ #collapsable-nav a{
+ 	font-size: 1.2em;
+ }
+ #collapsable-nav a span
+ {
+ 	font-size:1em;
+ 	margin-right: 5px;
+ }
+  #chicken,#beef,#Sushi
+  {
+  	margin-right: 10px;
+  }
+}
+@media(max-width: 479px)
+{
+	.navbar-brand h1
+	{
+		padding-top: 20px;
+		font-size: 40px;
+	}
+}
