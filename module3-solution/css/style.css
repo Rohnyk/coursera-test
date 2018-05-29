@@ -9,7 +9,7 @@ body {
 	border-radius: 0;
 	border: 0;
 	width: 100%;
-	height: 100px; 
+
 }
  .navbar-brand h1
  {
@@ -31,14 +31,16 @@ body {
  #nav-list
  {
  	margin-top: -5px;
+    margin-bottom: 10px;
  }
  #nav-list a
  {
- 	background: linear-gradient(to right, orange,yellow);
+  	background: linear-gradient(to right, orange,yellow);
  	font-family: Arial;
  	text-align: center;
  	border-bottom:3px solid black;
  	color: black;
+ 	/*z-index: 1;*/
  }
 
  #nav-list a:hover
@@ -81,18 +83,32 @@ body {
  }
  #menu-title
  {
- 	font-size: 3em;
+ 	font-size: 2em;
  }
  @media (min-width: 1200px)
  {
-  
+  #header-nav
+  {
+   width: 100%;
+ height: 100px; 
+  }
  }
 @media (min-width: 992px) and (max-width: 1199px)
 {
+#header-nav
+{
+   width: 100%;
+	height: 100px; 
+}
 
 }
 @media (min-width:768px) and (max-width: 991px)
 {
+	#header-nav
+	{
+    width: 100%;
+	height: 100px; 
+   }
 
 }
  @media (max-width: 767px)
@@ -115,10 +131,12 @@ body {
  	font-size:1em;
  	margin-right: 5px;
  }
+ 
   #chicken,#beef,#Sushi
   {
   	margin-right: 10px;
   }
+ 
 }
 @media(max-width: 479px)
 {
