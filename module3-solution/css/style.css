@@ -8,8 +8,6 @@ body {
 	background: linear-gradient(to right, orange,yellow) ;
 	border-radius: 0;
 	border: 0;
-	width: 100%;
-
 }
  .navbar-brand h1
  {
@@ -31,7 +29,6 @@ body {
  #nav-list
  {
  	margin-top: -5px;
-    margin-bottom: 10px;
  }
  #nav-list a
  {
@@ -40,7 +37,6 @@ body {
  	text-align: center;
  	border-bottom:3px solid black;
  	color: black;
- 	/*z-index: 1;*/
  }
 
  #nav-list a:hover
@@ -83,7 +79,7 @@ body {
  }
  #menu-title
  {
- 	font-size: 2em;
+ 	font-size: 5vw;
  }
  @media (min-width: 1200px)
  {
